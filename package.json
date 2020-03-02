@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack --config webpack.config.js --mode development --watch",
-    "server-dev": "nodemon server/index.js",
-    "start": "yarn react-dev && yarn server-dev"
+    "server-dev": "nodemon server/index.js"
   },
   "author": "",
   "license": "ISC",

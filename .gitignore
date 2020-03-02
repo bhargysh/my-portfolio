@@ -80,7 +80,10 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
+# _Do not_ ignore dist directory. Instead, only ignore the bundle file that is generated.
+# dist
+client/dist/bundle.js
 
 # Gatsby files
 .cache/

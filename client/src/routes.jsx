@@ -1,15 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-import Me from "./me.jsx";
-import Projects from "./projects.jsx";
-import Contact from "./contact.jsx";
-import Navbar from "./navbar.jsx";
+import { Me } from "./me.jsx";
+import { Projects } from "./projects.jsx";
+import { Contact } from "./contact.jsx";
+import { Navbar } from "./navbar.jsx";
 
-const Routes = () => {
+export const Routes = () => {
   return (
     <Router>
-      location.pathname
       <Navbar />
       <Switch>
         <Route path="/projects">
@@ -25,5 +24,3 @@ const Routes = () => {
     </Router>
   );
 };
-
-export default Routes;

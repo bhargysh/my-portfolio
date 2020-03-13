@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import styled from "styled-components";
 
-const Me = () => {
-    return <div>Meeeeee</div>
+const Container = styled.div`
+  color: red;
+`;
 
-}
-
-export default Me;
+export const Me = () => {
+  return <Container>Meeeeee</Container>;
+};

@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Routes } from "./routes.jsx";
+import { Header } from "./Header.jsx";
+import { Footer } from "./Footer.jsx";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -8,8 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <div>Hello World 🔥</div>
+        <Header />
         <Routes />
+        <Footer />
       </>
     );
   }

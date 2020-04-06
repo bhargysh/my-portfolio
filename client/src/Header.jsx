@@ -1,5 +1,11 @@
 import React from "react";
+import { Navbar } from "./navbar.jsx";
 
 export const Header = () => {
-    return <div>HEADER</div>
-}
+  return (
+    <header>
+      <Navbar />
+      <div>HEADER</div>
+    </header>
+  );
+};
